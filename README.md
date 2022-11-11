@@ -17,7 +17,7 @@ It is maven project based on spring mvc architecture.
 3. User can order a book.
 4. Cart will be updated by books ordered by user.
 
-# How To Use It.
+## How To Use It.
 1. Include all dependencies in pom.xml
 2. Add all files of src/main
 3. Include latest tomcat framework.

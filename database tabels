@@ -1,0 +1,43 @@
+## In spring-sevlet.xml give all jdbc connection requirement.
+
+create table user(
+	username varchar(255) PRIMARY KEY,
+    password varchar(20),
+    email varchar(50)
+); 
+
+create table admin(
+	username varchar(255) PRIMARY KEY,
+	password varchar(20),
+    email varchar(50)
+); 
+
+insert into admin values ('admin','admin@123','admin@gmail.com'),('admin2','admin2@123','admin2@gmail.com');
+
+CREATE TABLE book (
+  id varchar(100) NOT NULL,
+  name varchar(100) DEFAULT NULL,
+  author varchar(100) DEFAULT NULL,
+  price varchar(10) DEFAULT NULL,
+  quantity varchar(100) DEFAULT NULL
+) ;
+
+CREATE TABLE cart (
+	prime int NOT NULL AUTO_INCREMENT,
+    user varchar(100) DEFAULT NULL,
+    id varchar(100) NOT NULL,
+	name varchar(100) DEFAULT NULL,
+	author varchar(100) DEFAULT NULL,
+	price varchar(10) DEFAULT NULL,
+	quantity varchar(100) DEFAULT NULL,
+    PRIMARY KEY (prime)
+);
+
+Create table freq(
+  id varchar(100) NOT NULL,
+  name varchar(100) DEFAULT NULL,
+  author varchar(100) DEFAULT NULL,
+  price varchar(10) DEFAULT NULL,
+  searched int default 0,
+  PRIMARY KEY (id)
+);

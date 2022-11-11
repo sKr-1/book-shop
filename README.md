@@ -21,8 +21,9 @@ It is maven project based on spring mvc architecture.
 1. Include all dependencies in pom.xml
 2. Add all files of src/main
 3. Include latest tomcat framework.
+4. Admin can login by username: admin or admin2 and password: admin@123 or admin2@123 respectively.
 
-##Technology Stack
+## Technology Stack
 1. Maven
 2. Spring, Spring MVC
 3. MySql

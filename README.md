@@ -22,6 +22,13 @@ It is maven project based on spring mvc architecture.
 2. Add all files of src/main
 3. Include latest tomcat framework.
 
+##Technology Stack
+1. Maven
+2. Spring, Spring MVC
+3. MySql
+4. Jsp
+5. HTML, CSS ,JS
+
 ## About Author
 name: SANJEEV KUMAR RANJAN 
 email:sanjeevkumarranjan2005@gmail.com

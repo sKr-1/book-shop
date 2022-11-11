@@ -9,10 +9,10 @@ It is maven project based on spring mvc architecture.
 1. Admin can add new book which will be added to database.
 2. Admin can update or delete existing book.
 3. Admin can check books with quantities less than certain number and update it.
-4. Admin can see all the books ordered bu users.
+4. Admin can see all the books ordered by users.
 
 ## Users Feature.
-1. User can see all book which is present in database.
+1. User can see all book which is present in database (added by admin).
 2. User can search book by name.
 3. User can order a book.
 4. Cart will be updated by books ordered by user.
